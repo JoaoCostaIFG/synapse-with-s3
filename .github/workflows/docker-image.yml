@@ -18,7 +18,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/joaocostaifg/synapse-with-s3
+            ghcr.io/joaocostaifg/synapsewiths3
           tags: |
             type=ref,event=branch
             type=ref,event=pr
