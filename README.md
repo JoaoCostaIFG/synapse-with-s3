@@ -41,3 +41,7 @@ media_storage_providers:
 ```
 
 This will keep data locally for 2 days, and then offload it to S3 when no one has touched it for at least 2 days. If someone tries to access this data afterwards, the server downloads the asset from S3 and keeps it for 2 days again.
+
+## Compose
+
+Included an [example compose file](./docker-compose.yml) that sets up synapse, element-web, coturn (for calls), and synapse admin.
